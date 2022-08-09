@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'heebo';
+  src: url(../fonts/Heebo-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'fantasy';
+  src: url(../fonts/Ace\ Records.ttf);
+}
+
+@font-face {
+  font-family: 'nova';
+  src: url(../fonts/Nova\ Regular.ttf);
+}
+
+@font-face {
+  font-family: 'novabold';
+  src: url(../fonts/nova\ bold.ttf);
+}
+@font-face {
+  font-family: 'rain';
+  src: url(../fonts/AYearWithoutRain.ttf);
+}
+h1{
+  font-family: 'rain' ;
+  color: rgb(255, 255, 255);
+  font-size: 56px;
+}
+
+body{
+  background-image:url('../Images/cat_tabby_eyes_surprise_lie_94958_1920x1080.jpg');
+}
+.box{
+  border-radius: 10%;
+  width: 450px;
+  background:rgba(164, 115, 36, 0.4);
+  padding:40px;
+  text-align:center;
+  margin: auto;
+  margin-top: 5%;
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ion-icon{
+  color: grey;
+  height: 50px;
+  width: 50px;
+  
+}
+
+#cat{
+  border-radius: 50%
+}
+
+#sp{
+  width:50px;
+  height:50px;
+}
+
+#para{
+  font-size: 24px;
+  color:rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 0.2px black;
+}
+
+#hed{
+  font-size: 20px;
+  font-family: 'rain';
+}
